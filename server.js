@@ -9,4 +9,4 @@ app.get('/', (req, res) => {
     return res.send('API app-ludus')
 })
 
-app.listen(port)
+app.listen(port, () => console.log(`API rodando na porta ${port}`))
